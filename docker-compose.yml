@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nilmtk:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/app/
